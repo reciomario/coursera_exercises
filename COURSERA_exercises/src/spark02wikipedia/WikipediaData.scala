@@ -1,4 +1,4 @@
-package spark02wikipedia
+package src.spark02wikipedia
 
 import java.io.File
 
@@ -7,7 +7,7 @@ object WikipediaData {
   private[spark02wikipedia] def filePath = {
     val resource = this.getClass.getClassLoader.getResource("wikipedia/wikipedia.dat")
    // if (resource == null) sys.error("Please download the dataset as explained in the assignment instructions")
-    new File("src/main/resources/wikipedia/wikipedia.dat").getPath
+    new File("resources/wikipedia.dat").getPath
   }
 
   private[spark02wikipedia] def parse(line: String): WikipediaArticle = {

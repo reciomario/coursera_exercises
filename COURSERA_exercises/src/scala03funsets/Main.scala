@@ -1,4 +1,4 @@
-package scala03funsets
+package src.scala03funsets
 
 object Main extends App {
   import FunSets._

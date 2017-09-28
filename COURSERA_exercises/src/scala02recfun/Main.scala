@@ -1,4 +1,4 @@
-package scala02recfun
+package src.scala02recfun
 import scala.collection.mutable.ListBuffer
 object Main {
   def main(args: Array[String]) {

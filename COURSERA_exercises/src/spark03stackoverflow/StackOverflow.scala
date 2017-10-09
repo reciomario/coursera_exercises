@@ -41,8 +41,10 @@ class StackOverflow extends Serializable {
   /** Languages */
   val langs =
     List(
-      "JavaScript", "Java", "PHP", "Python", "C#", "C++", "Ruby", "CSS", "SCSS",
-      "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy", "Swift")
+      "JavaScript", "Java", "PHP", "Python", "C#", "C++", "Ruby", "CSS",
+      "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy",
+      "ALF", "Prolog", "Datalog")
+
 
   /** K-means parameter: How "far apart" languages should be for the kmeans algorithm? */
   def langSpread = 50000
